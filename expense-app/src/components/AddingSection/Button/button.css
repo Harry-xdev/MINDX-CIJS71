@@ -1,0 +1,11 @@
+.button {
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 250px;
+    font-size: 19px;
+}
+
+button:hover {
+    background-color: bisque;
+}

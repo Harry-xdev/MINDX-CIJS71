@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+p {
+    color: rgb(14, 111, 167);
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#mainPage {
+    padding-left: 30px;
+}
+
+.btn-show-hide {
+    position: fixed;
+    top: 20px;
+    right: 500px;
+    height: 60px;
+    width: 300px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-show-hide:hover {
+    background-color: rgb(103, 232, 236);
+
+}
