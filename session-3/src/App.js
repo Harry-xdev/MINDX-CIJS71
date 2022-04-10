@@ -7,11 +7,12 @@ function App(props) {
   return (
     <div className="App">
       <InputSection />
-      <TaskBar task='Clean up bedroom' />
-      <TaskBar task='Buy some milk' />
+      {/* <TaskBar task='Clean up bedroom' /> */}
+      {/* <TaskBar task='Buy some milk' />
       <TaskBar task='Jogging' />
       <TaskBar task='Lean React' />
-      <TaskBar task='Doing Exercises' />
+      <TaskBar task='Doing Exercises' /> */}
+      <TaskBar />
       <StatusBar />
     </div>
   );
