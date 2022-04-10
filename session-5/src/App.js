@@ -1,10 +1,11 @@
-import { Todolist } from './components/Todolist/task';
+
 import './App.css';
+import { StrafficLight } from './components/StrafficLight/light';
 
 function App() {
   return (
     <div className="App">
-      <Todolist />
+      <StrafficLight />
     </div>
   );
 }
