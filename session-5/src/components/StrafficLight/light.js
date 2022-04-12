@@ -18,8 +18,8 @@ export const StrafficLight = () => {
 
     ])
     const handleClick = () => {
-        const activeIdx = lights.findIndex((lights) => {
-            return lights.isActive === true
+        const activeIdx = lights.findIndex((a) => {
+            return a.isActive === true
         })
         console.log(activeIdx)
         let nextActiveIdx
