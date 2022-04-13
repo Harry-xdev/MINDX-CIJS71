@@ -23,7 +23,7 @@ export const StrafficLight = () => {
         })
         console.log(activeIdx)
         let nextActiveIdx
-        if (activeIdx === lights.length - 1) {
+        if (activeIdx === lights.length - 1) {g
             nextActiveIdx = 0
         } else {
             nextActiveIdx = activeIdx + 1
