@@ -34,9 +34,6 @@ export const MainPage = () => {
                     Điểm đặc biệt của Surface Laptop Studio là phần màn hình của máy có thể di chuyển, gập ở nhiều tư thế khác nhau, giúp thuận tiện cho việc thao tác vẽ thiết kế, trình chiếu hình ảnh nội dung cho đối tác, khách hàng dễ dàng.
                 </p>
             </div>
-            <button className="btn">
-                Back to top
-            </button>
         </div>
     )
 }
