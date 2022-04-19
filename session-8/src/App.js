@@ -2,6 +2,7 @@ import './App.css';
 import { ScrollButton } from './components/BackToTop/backtotop';
 import { MainPage } from './components/MainPage/main';
 import { useEffect, useState } from 'react'
+import { LetterCounting } from './components/LetterCounting/counting';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
     <div className="App">
       <MainPage />
       {visible && <ScrollButton />}
+      <LetterCounting />
     </div>
   );
 }
