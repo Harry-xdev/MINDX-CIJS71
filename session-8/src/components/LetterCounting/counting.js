@@ -1,14 +1,19 @@
 import './counting.css'
 import { useState } from 'react'
 
-export const LetterCounting = () => {  
+export const WordsCounting = () => {  
 
     const [words, setWords] = useState('')
-    let array = words.split(" ")
-    let qty = array.length
+    const array = words.split(" ")
+    const newArr = array.filter((value) => {
+        return value != ''
+    })
+
+    
+    let qty = newArr.length
 
     console.log(qty)
-    console.log(array)
+    console.log(newArr)
 
     return (
         <div className="input">
