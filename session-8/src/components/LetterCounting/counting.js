@@ -1,15 +1,15 @@
 import './counting.css'
 import { useState } from 'react'
 
-export const WordsCounting = () => {  
+export const WordsCounting = () => {
 
     const [words, setWords] = useState('')
+    
     const array = words.split(" ")
     const newArr = array.filter((value) => {
-        return value != ''
+        return value !== ''
     })
 
-    
     let qty = newArr.length
 
     console.log(qty)
