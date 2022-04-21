@@ -12,14 +12,15 @@ export const WordsCounting = () => {
 
     let qty = newArr.length
 
-    console.log(qty)
-    console.log(newArr)
+    const handleOnChange = (event) => {
+        setWords(event.target.value)
+    }
 
     return (
         <div className="input">
             <input
                 placeholder="Words counting"
-                onChange={event => setWords(event.target.value)}
+                onChange={handleOnChange}
             />
             <div>Words:</div>
             <div className="display">{qty}</div>
